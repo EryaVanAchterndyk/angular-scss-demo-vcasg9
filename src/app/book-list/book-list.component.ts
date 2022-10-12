@@ -7,6 +7,7 @@ import { BookDataService } from './book-data.service';
   styleUrls: ['./book-list.component.css'],
 })
 export class BookListComponent implements OnInit {
+  //constructor() {}
   books = [];
 
   constructor(private bookData: BookDataService) {
